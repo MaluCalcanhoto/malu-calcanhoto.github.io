@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Designer Gráfico autodidata com mais de uma década de experiência e estudante de Design de Moda.">
+    <title>Malu Calcanhoto - Designer Gráfico e Estudante de Design de Moda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+            margin: 20px 0;
+        }
+        .about, .portfolio, .blog, .contact {
+            margin-bottom: 40px;
+        }
+        .portfolio iframe, .blog iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        .contact form button {
+            background-color: #b22222;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #a11d1d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Malu Calcanhoto</h1>
+        <nav>
+            <a href="#about">Sobre Mim</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>Sobre Mim</h2>
+            <img src="sua-foto.jpg" alt="Foto de Malu Calcanhoto">
+            <p>Olá, pessoal! Sou a Malu, uma Designer Gráfico autodidata com mais de uma década de experiência e uma estudante de Design de Moda.</p>
+            <p>Ao longo dos últimos 11 anos, tenho tido o privilégio de mergulhar profundamente no mundo do design, explorando diversas áreas e me apaixonando cada vez mais pela criatividade e pela moda. Atualmente, estou trilhando meu caminho como designer na Costa Rica Malhas, onde posso unir minhas duas grandes paixões.</p>
+            <p>Na Costa Rica Malhas, tenho a oportunidade única de participar ativamente de diversas etapas da criação de coleções, desde os bastidores de sessão de fotos até a direção de arte e o design de catálogos de moda. Além disso, sou responsável pelo design de todos os materiais de endomarketing, mídia social e ações online e offline para a Costa Rica Malhas e CR Sport.</p>
+            <p>Estou animada para compartilhar minha jornada de crescimento e aprendizado com vocês. Me acompanhe nesta trajetória emocionante e juntos, vamos alcançar grandes conquistas!</p>
+            <p>Conecte-se comigo e vamos crescer juntos!</p>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfólio</h2>
+            <iframe src="https://www.behance.net/malucalcanhoto1"></iframe>
+        </section>
+        <section id="blog" class="blog">
+            <h2>Blog</h2>
+            <iframe src="https://www.blogger.com"></iframe>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contato</h2>
+            <p>E-mail: <a href="mailto:malucalcanhoto.work@gmail.com">malucalcanhoto.work@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/malu.calcanhoto/" target="_blank">@malu.calcanhoto</a></p>
+            <form action="mailto:malucalcanhoto.work@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="message" placeholder="Sua mensagem" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Malu Calcanhoto. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
